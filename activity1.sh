@@ -1,0 +1,11 @@
+echo "ENTER NAME:"
+read NAME
+
+echo "ENTER YOUR AGE:"
+read AGE
+
+echo "ENTER PROGRAM:"
+read PROGRAM
+
+echo "HELLO $NAME THIS IS YOUR $AGE AND YOUR PROGRAM IS $PROGRAM"
+
