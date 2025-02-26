@@ -13,4 +13,5 @@ elif [ "$score" -lt 60 ] && [ "$score" -ge 0 ]; then
     echo "Grade F"
 else
     echo "Invalid Number. Input is not between 0 and 100"
+    exit 1
 fi
