@@ -18,9 +18,6 @@ jobs:
         chmod +x log_time.sh
         ./log_time.sh
 
-    - name: Check log.txt contents
-      run: cat log.txt
-
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions"
