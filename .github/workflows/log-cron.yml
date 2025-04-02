@@ -24,4 +24,4 @@ jobs:
         git add log.txt
         git commit -m "Update log file with new timestamp" || echo "No changes to
         commit"
-        git push
+        git push 
