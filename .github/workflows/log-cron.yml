@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit and push changesa
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.VinceCampos "github-actions"
+          git config --global user.campos.vince0119@gmail.com "github-actions@github.com"
           git add log.txt
           git commit -m "Update log file with new timestamp" || echo "No changes to commit"
           git push
