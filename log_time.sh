@@ -1,1 +1,3 @@
-echo "Current Data and Time: $(date)" >> log.txt
+USER=${GITHUB_ACTOR:-"unknown-user"}
+
+echo "Current Logged Data and Time: $(date): Logged by $USER" >> log.txt
